@@ -17,6 +17,6 @@ RUN git clone https://github.com/NVIDIA/cuda-samples.git && \
 COPY check_nccl.sh .
 RUN chmod +x check_nccl.sh
 
-RUN echo "hello"
+RUN echo "hi"
 # Start Container
 CMD tail -f /dev/null
